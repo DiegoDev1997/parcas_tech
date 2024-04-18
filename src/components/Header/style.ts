@@ -14,9 +14,18 @@ padding: 29px;
 align-items: center;
 .left{
     font-size: 33px;
+
     .logo{
      font-size: 19px;
      justify-content: center;
+     .cx-img{
+      display: flex;
+      justify-content: center;
+        img{
+        height: 55px;
+        align-self: center;
+       }
+     }
      h2{
       text-align: center;
       font-family: 'Poppins';
@@ -60,11 +69,15 @@ align-items: center;
   justify-content: space-between;
   .left{
     .logo{
+      img{
+        height: 20px;
+      }
       h2{
-      font-size: 19px;
+      font-size: 16px;
     }
     p{
       font-size: 11px;
+      display:none;
     }
     }
   }
@@ -75,6 +88,7 @@ align-items: center;
       height: 55px;
       width: 55px;
       border-radius: 8px;
+      border: none;
       .svg{
         height: 100%;
         width:100%;
