@@ -10,7 +10,7 @@ background-color: ${StyleApp.bgAppPrimary};
 color: white;
 display: flex;
 justify-content: space-around;
-padding: 29px;
+padding: 19px;
 align-items: center;
 .left{
     font-size: 33px;
