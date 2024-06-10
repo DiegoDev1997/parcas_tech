@@ -10,30 +10,30 @@ background-color: ${StyleApp.bgAppPrimary};
 color: white;
 display: flex;
 justify-content: space-around;
-padding: 19px;
+padding:30px 19px;
 align-items: center;
 .left{
     font-size: 33px;
 
     .logo{
      font-size: 19px;
-     justify-content: center;
-     .cx-img{
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+     .cx-logo-txt{
       display: flex;
       justify-content: center;
-        img{
-        height: 55px;
-        align-self: center;
-       }
+      align-items: center;
+
+      p{
+        color: ${StyleApp.bgAppPrimary};
+      }
+
+      
      }
-     h2{
-      text-align: center;
-      font-family: 'Poppins';
-      color: ${StyleApp.bgAppSecondary};
-     }
-     p{
-      font-size: 16px;
-     }
+    
     }
 }
 .right{
@@ -53,6 +53,7 @@ align-items: center;
         color: #fff;
         text-decoration: none;
         padding: 9px 12px;
+        font-size: 15px;
         border-radius: 12px;
         border: 1px solid transparent;
         transition: all ease .3s;

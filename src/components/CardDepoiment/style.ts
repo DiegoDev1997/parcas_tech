@@ -4,18 +4,22 @@ import { StyleApp } from "../../styles/style";
 
 export const Box=styled.div`
 outline: 1px solid #DDD;
-padding: 22px 32px;
+padding: 32px;
 background-color: #EEEEEE;
 border-radius: 33px;
-
+box-shadow: 0 0 22px #222;
+    background:linear-gradient(to bottom,${StyleApp.bgAppPrimary},${StyleApp.bgAppSecondary});
 
 h3{
     font-size: 23px;
     margin: 30px;
+    color: ${StyleApp.bgAppSecondary};
+  font-size: 27px;
+  
 }
 p{
     font-size: 16px;
-    color: grey;
+    color:white;
     font-style:oblique;
     font-family: 'Poppins';
 }
