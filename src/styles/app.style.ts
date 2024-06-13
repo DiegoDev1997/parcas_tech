@@ -6,15 +6,19 @@ export const Main=styled.main`
 display: flex;
 justify-content: center;
 .content-main{
-    margin:0 60px;
     width: 100%;
     min-height: 100vh;
     
+    .espace-margin{
+      margin:0 30px;
+    }
 }
 
 @media screen and (max-width:1180px) {
    .content-main{
-    margin: 0;
+    .espace-margin{
+        margin: 0;
+   }
    } 
 }
 `
@@ -22,6 +26,8 @@ justify-content: center;
 export const ContainerOne=styled.section`
 min-height: 700px;
 padding: 200px 40px ;
+
+
 .content-about{
     display: flex;
     .left{
@@ -124,12 +130,18 @@ padding: 200px 40px ;
 
 export const ContainerTwo=styled.section`
 background-color:${StyleApp.bgAppPrimary};
-height: 900px;
+min-height: 900px;
 display: flex;
-padding:200px 100px;
+padding:100px 100px;
 display: flex;
 justify-content: center;
 align-items: center;
+flex-direction: column;
+h2{
+    margin-bottom: 80px;
+    color: ${StyleApp.bgAppSecondary};
+    font-size: 36px;
+}
 .content{
     display: grid;
     gap:47px;

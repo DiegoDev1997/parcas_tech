@@ -26,7 +26,7 @@ function App() {
      <Header />
       <Main className="parallax-container" >
         <div className="content-main">
-          <ContainerOne id="sobre">
+          <ContainerOne id="sobre" className="espace-margin">
            <div className="content-about">
             <div className="left">
                 <h2>Precisa de um Site ou App?</h2>
@@ -48,6 +48,7 @@ function App() {
            </div>
           </ContainerOne>
           <ContainerTwo id="servicos">
+             <h2>Nossos Serviços</h2>
             <div className="content">
               {Service.map((i,k)=><CardService key={k} service={i} />)}
             </div>
@@ -76,7 +77,7 @@ function App() {
                 </div>
             </div>
           </ContainerFour>
-          <ContainerFive id="duvidas">
+          <ContainerFive id="duvidas" className="espace-margin">
             <h4 className="title">Dúvidas Frequentes</h4>
               {Faqs.map((f,k)=><CardDoubt key={k} doubt={f} />) }
           </ContainerFive>

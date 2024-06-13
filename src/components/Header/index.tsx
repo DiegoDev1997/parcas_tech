@@ -15,7 +15,7 @@ export default ()=>{
   return <Box visibleMobileMenu={stateMenuMobile}>
     <div className="left">
      <div className="logo">
-        <div className="cx-logo-txt"><p>{`< ParçasTech />`}</p></div>
+          <img src="/logo.png" alt="" />
      </div>
     </div>
     <div className="right">

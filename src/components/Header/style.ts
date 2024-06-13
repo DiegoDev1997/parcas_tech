@@ -16,24 +16,17 @@ align-items: center;
     font-size: 33px;
 
     .logo{
-     font-size: 19px;
      display: flex;
+     height: 70px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-    
-     .cx-logo-txt{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+       img{
+        height: 110px;
+        border: 1px solid ${StyleApp.bgAppPrimary};
+       }
 
-      p{
-        color: ${StyleApp.bgAppPrimary};
-      }
-
-      
-     }
-    
+  
     }
 }
 .right{
@@ -49,11 +42,12 @@ align-items: center;
         display: none;
       }
         a{
+          width: 100px;
         margin:12px;
         color: #fff;
         text-decoration: none;
-        padding: 9px 12px;
-        font-size: 15px;
+        padding: 9px 32px;
+        font-size: 13px;
         border-radius: 12px;
         border: 1px solid transparent;
         transition: all ease .3s;
@@ -71,7 +65,7 @@ align-items: center;
   .left{
     .logo{
       img{
-        height: 20px;
+        height: auto;
       }
       h2{
       font-size: 16px;
