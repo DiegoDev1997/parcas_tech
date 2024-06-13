@@ -65,7 +65,7 @@ align-items: center;
   .left{
     .logo{
       img{
-        height: auto;
+        height: 110px;
       }
       h2{
       font-size: 16px;
