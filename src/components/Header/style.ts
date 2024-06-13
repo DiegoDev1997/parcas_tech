@@ -131,6 +131,7 @@ align-items: center;
            justify-content: center;
             font-size: 15px;
             padding: 12px 0;
+            width: auto;
             border-bottom: 1px solid grey;
           }
         }
